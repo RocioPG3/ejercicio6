@@ -67,10 +67,10 @@ export default function Router() {
 
         <GlobalContext.Provider value={{contacts, setContacts, todos, setTodos}}> {/*  Cualquier punto en el árbol hacia abajo tiene disponible los contactos y la función para cambiar essos contactos*/}
           <Routes>
-            <Route path="/ejercicio1" element={<Ejercicio1 />} />
-            <Route path="/ejercicio2" element={<Ejercicio2 />} />
-            <Route path="/ejercicio3" element={<Ejercicio3 />} />
-            <Route path="/ejercicio4" element={<Ejercicio4 />} />
+            <Route path="/ejercicio6/ejercicio1" element={<Ejercicio1 />} />
+            <Route path="/ejercicio6/ejercicio2" element={<Ejercicio2 />} />
+            <Route path="/ejercicio6/ejercicio3" element={<Ejercicio3 />} />
+            <Route path="/ejercicio6/ejercicio4" element={<Ejercicio4 />} />
             {/* <Route component={Error} /> */}
           </Routes>
         </GlobalContext.Provider>
